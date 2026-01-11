@@ -5,7 +5,7 @@ const Footer = () => {
   const handleSocialClick = (socialName) => {
     // Map social names to URLs
     const socialUrls = {
-      Github: 'https://github.com/thanhtruc3995', // Your GitHub username
+      Github: 'https://github.com/ton0005', // Your GitHub username
       linkedin: 'https://www.linkedin.com/in/truc-ton/', // Your LinkedIn profile
     };
     
