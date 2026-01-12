@@ -46,9 +46,9 @@ const ExperienceSection = () => {
       ease: "none",
       // Trigger the animation when the experience section comes into view
       scrollTrigger: {
-        trigger: "#experience", // Use the section as trigger instead of .timeline
+        trigger: "#Experiences", // Fixed: was #experience, should be #Experiences
         start: "top center",
-        end: "bottom center",
+        end: "bottom 20%", // Extended end point to cover the last card fully
         scrub: 1, // Smooth animation tied to scroll position
         // Remove the onUpdate callback to prevent continuous updates
       },
